@@ -1,0 +1,26 @@
+.product-card{
+    position: relative;
+    border: 2px solid salmon;
+}
+
+.product-card img{
+    height: 300px;
+    width: 200px;
+    margin:10px;
+    border: 2px solid salmon;
+}
+.product-details {
+    margin: 20px;
+    margin-bottom: 80px;
+}
+
+.add-cart{
+    background-color: salmon;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 15px;
+    bottom: 0;
+}

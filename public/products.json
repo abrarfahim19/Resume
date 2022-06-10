@@ -1,0 +1,62 @@
+[
+    {
+      "index": 0,
+      "price": 27,
+      "name": "History",
+      "picture": "image-0.png"
+    },
+    {
+      "index": 1,
+      "price": 40,
+      "name": "Harry",
+      "picture": "image-1.png"
+    },
+    {
+      "index": 2,
+      "price": 27,
+      "name": "Sense",
+      "picture": "image-2.png"
+    },
+    {
+      "index": 3,
+      "price": 22,
+      "name": "Five Feet",
+      "picture": "image-3.png"
+    },
+    {
+      "index": 4,
+      "price": 23,
+      "name": "Kahakha",
+      "picture": "image-4.png"
+    },
+    {
+      "index": 5,
+      "price": 28,
+      "name": "The Poison",
+      "picture": "image-5.png"
+    },
+    {
+      "index": 6,
+      "price": 29,
+      "name": "Ararat",
+      "picture": "image-6.png"
+    },
+    {
+      "index": 7,
+      "price": 31,
+      "name": "make way",
+      "picture": "image-7.png"
+    },
+    {
+      "index": 8,
+      "price": 21,
+      "name": "educated",
+      "picture": "image-8.png"
+    },
+    {
+      "index": 9,
+      "price": 34,
+      "name": "Silence",
+      "picture": "image-9.png"
+    }
+]
