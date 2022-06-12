@@ -10,7 +10,7 @@ function ProjectCards({data}) {
   return (
     <div className="member member-1">
         {/* <div className="member-img"> */}
-          <img className="member-img" src={data?.img_data[0].img}  />
+          <img className="member-img" alt="main" src={data?.img_data[0].img}  />
         {/* </div> */}
         <div className="member-info">
           <h1 className="name ">{data?.name}</h1>
@@ -19,7 +19,7 @@ function ProjectCards({data}) {
             {data?.point1}
           </h4>
           {/* <a href="#contact" className="contact-member"> */}
-            <span className="contact-member" onClick={()=>setModalShow(true)}>contact</span>
+            <span className="contact-member" onClick={()=>setModalShow(true)}>Details</span>
           {/* </a> */}
           <ProjectDetails show={modalShow} onHide={()=>setModalShow(false)} data={data} />
         </div>
