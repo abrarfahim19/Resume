@@ -84,7 +84,7 @@
 .home-container .logo .hover-show.active .circle:nth-child(4) {
   position: absolute;
   transform: translateX(150%) translateY(150%);
-  background: url(../props/bootstrap.png);
+  background: url(../props/tailwind.png);
   background-size: cover;
   background-position: center;
 }
@@ -98,21 +98,21 @@
 .home-container .logo .hover-show.active .circle:nth-child(6) {
   position: absolute;
   transform: translateX(-150%) translateY(150%);
-  background: url(../props/kotlin.png);
+  background: url(../props/python.png);
   background-size: cover;
   background-position: center;
 }
 .home-container .logo .hover-show.active .circle:nth-child(7) {
   position: absolute;
   transform: translateX(-210%);
-  background: url(../props/c-plus-plus.png);
+  background: url(../props/matlab.jpg);
   background-size: cover;
   background-position: center;
 }
 .home-container .logo .hover-show.active .circle:nth-child(8) {
   position: absolute;
   transform: translateX(-150%) translateY(-150%);
-  background: url(../props/c-sharp.png);
+  background: url(../props/tensorflow.webp);
   background-size: cover;
   background-position: center;
 }
