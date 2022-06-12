@@ -5,7 +5,7 @@ import { BsMouse } from 'react-icons/bs';
 
 function Home() {
   return (
-    <div id='home' className='container home-container'>
+    <div className='container home-container'>
       <div className='logo'>
         <div className='hover-show'>
           <span className='circle'></span>
@@ -32,7 +32,7 @@ function Home() {
         <span>About Me</span> <br />
         <p>
           I am Abrar Fahim Web Developer | Machine Learning Engineer from Bangladesh. I am currently pursuing my training as a developer.
-          <br /> <br /> I love Pythonic solution to problem. And JS power in Browser.
+          <br /> <br /> I love Pythonic solution to problem. And Js power in Browser.
         </p>
       </h2>
 

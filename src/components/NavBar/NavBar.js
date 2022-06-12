@@ -2,16 +2,12 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../props/logo.svg";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+import { RiLoginCircleFill } from "react-icons/ri";
 import { ImBlog } from "react-icons/im";
+import { SiHomeadvisor } from "react-icons/si";
 import {
-  AiFillStar,
-  AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -55,7 +51,7 @@ const NavBar = () => {
           <Nav className="ms-auto text-white" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <SiHomeadvisor style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
@@ -88,6 +84,15 @@ const NavBar = () => {
                 onClick={() => updateExpanded(false)}
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+              </Nav.Link>
+            </Nav.Item>
+            
+            <Nav.Item>
+              <Nav.Link
+                as={Link} to="/login"
+                onClick={() => updateExpanded(false)}
+              >
+                <RiLoginCircleFill style={{ marginBottom: "2px" }} /> Login
               </Nav.Link>
             </Nav.Item>
           </Nav>

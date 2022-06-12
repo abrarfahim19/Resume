@@ -158,23 +158,16 @@ body::after {
   opacity: 0.9 !important;
 }
 
-.navbar-nav .nav-link {
-  color: white !important;
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
-}
-
 @media (max-width: 767px) {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a2777 !important;
+    background-color: #181a27 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
 }
-
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
 }
@@ -187,4 +180,40 @@ body::after {
 
 .nav-link {
   padding: 0.8rem 1rem !important;
+}
+
+@media (max-width: 767px) {
+  .nav-link {
+    padding: 0.7rem 1rem !important;
+  }
+}
+
+.navbar-nav .nav-item {
+  position: relative;
+  margin-left: 20px;
+}
+
+.navbar-nav .nav-item a {
+  font-weight: 400;
+  transition: all 0.3s ease-out 0s;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-nav .nav-item a::after {
+  content: "";
+  position: relative;
+  display: block;
+  height: 5px;
+  width: 0;
+  border-radius: 16px;
+  background: #4e4ed4;
+  bottom: 1px;
+  left: 0;
+  z-index: -1;
+  transition: all 0.3s ease-out 0s;
+}
+
+.navbar-nav .nav-item a:hover::after {
+  width: 100%;
 }

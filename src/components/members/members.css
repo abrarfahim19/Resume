@@ -103,7 +103,7 @@
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background: rgb(5, 7, 37) url(../props/img3.jpg);
+    /* background: rgb(5, 7, 37) url(../props/img3.jpg); */
     background-size: cover;
     background-position: center;
     border: 2px solid var(--color-sec-light);

@@ -30,7 +30,10 @@ function Contact() {
           </h2>
         </a>
 
-        <a href="www.linkedin.com/imabrar" className="contact instagram">
+        <a
+          href="https://www.linkedin.com/in/imabrar/" className="contact instagram"
+          target={"blank"}
+          >
           <AiOutlineLinkedin className="icon" />
           <h2>
             Linked In <span>imabrar</span>
