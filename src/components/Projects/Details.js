@@ -54,7 +54,6 @@ function Details ({data}) {
                   <li className='text-dark'>{data?.point2}</li>
                   <li className='text-dark'>{data?.point3}</li>
                   <li className='text-dark'>{data?.point4}</li>
-                  <li className='text-dark'>{data?.point5}</li>
                 </ul>
               </div>
             </ListGroup.Item>
