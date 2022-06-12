@@ -18,24 +18,24 @@ const Qualifications = () => {
           <h1>javascript</h1>
         </div>
         <div className="qualification">
-          <div className="content bootstrap"></div>
-          <h1>bootstrap</h1>
+          <div className="content tailwind"></div>
+          <h1>Tailwind</h1>
         </div>
         <div className="qualification">
           <div className="content react"></div>
           <h1>react</h1>
         </div>
         <div className="qualification">
-          <div className="content c-plus-plus"></div>
-          <h1>c++</h1>
+          <div className="content python"></div>
+          <h1>Python</h1>
         </div>
         <div className="qualification">
-          <div className="content c-sharp"></div>
-          <h1>c#</h1>
+          <div className="content matlab"></div>
+          <h1>Matlab</h1>
         </div>
         <div className="qualification">
-          <div className="content kotlin"></div>
-          <h1>kotlin</h1>
+          <div className="content tensorflow"></div>
+          <h1>Tensorflow</h1>
         </div>
       </div>
     </div>

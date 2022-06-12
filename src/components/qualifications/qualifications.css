@@ -61,8 +61,8 @@
   background-size: cover;
   background-size: 90px;
 }
-.qualifications-container .qualification .content.bootstrap {
-  background: rgba(255, 255, 255, 0.103) url(../props/bootstrap.png);
+.qualifications-container .qualification .content.tailwind {
+  background: rgba(255, 255, 255, 0.103) url(../props/tailwind.png);
   background-position: center;
   background-size: cover;
   background-size: 66px;
@@ -73,20 +73,20 @@
   background-size: cover;
   background-size: 66px;
 }
-.qualifications-container .qualification .content.c-plus-plus {
-  background: rgba(255, 255, 255, 0.103) url(../props/c-plus-plus.png);
+.qualifications-container .qualification .content.python {
+  background: rgba(255, 255, 255, 0.103) url(../props/python.png);
   background-position: center;
   background-size: cover;
   background-size: 66px;
 }
-.qualifications-container .qualification .content.c-sharp {
-  background: rgba(255, 255, 255, 0.103) url(../props/c-sharp.png);
+.qualifications-container .qualification .content.tensorflow {
+  background: rgba(255, 255, 255, 0.103) url(../props/tensorflow.webp);
   background-position: center;
   background-size: cover;
   background-size: 66px;
 }
-.qualifications-container .qualification .content.kotlin {
-  background: rgba(255, 255, 255, 0.103) url(../props/kotlin.png);
+.qualifications-container .qualification .content.matlab {
+  background: rgba(255, 255, 255, 0.103) url(../props/matlab.jpg);
   background-position: center;
   background-size: cover;
   background-size: 66px;

@@ -5,7 +5,7 @@ import { BsMouse } from 'react-icons/bs';
 
 function Home() {
   return (
-    <div className='container home-container'>
+    <div id='home' className='container home-container'>
       <div className='logo'>
         <div className='hover-show'>
           <span className='circle'></span>
