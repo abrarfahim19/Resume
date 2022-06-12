@@ -14,20 +14,20 @@ function Details ({data}) {
             </ListGroup.Item>
             <ListGroup.Item>
               <div>
-                <p className='m-0 p-0 ' style={{ fontSize: "10px", color: "dimgray" }}>Project Name</p>
-                <p className="m-0 pt-1">{data?.name}</p>
+                <p className='m-0 p-0 text-dark' style={{ fontSize: "10px", color: "dimgray" }}>Project Name</p>
+                <p className="m-0 pt-1 text-dark">{data?.name}</p>
               </div>
             </ListGroup.Item>
             <ListGroup.Item>
               <div>
                 <p className='m-0 p-0 ' style={{ fontSize: "10px", color: "dimgray" }}>Github Url</p>
-                <p className="m-0 pt-1">{data?.github}</p>
+                <p className="m-0 pt-1 text-dark">{data?.github}</p>
               </div>
             </ListGroup.Item>
             <ListGroup.Item>
               <div>
                 <p className='m-0 p-0 ' style={{ fontSize: "10px", color: "dimgray" }}>Live Url</p>
-                <p className="m-0 pt-1">{data?.live}</p>
+                <p className="m-0 pt-1 text-dark">{data?.live}</p>
               </div>
             </ListGroup.Item>
           </ListGroup>
@@ -37,24 +37,24 @@ function Details ({data}) {
             <ListGroup.Item >
             <div>
                 <p className='m-0 p-0 ' style={{ fontSize: "10px", color: "dimgray" }}>Project Starting Date</p>
-                <p className="m-0 pt-1">{data?.start_date}</p>
+                <p className="m-0 pt-1 text-dark">{data?.start_date}</p>
               </div>
             </ListGroup.Item>
             <ListGroup.Item>
             <div>
                 <p className='m-0 p-0 ' style={{ fontSize: "10px", color: "dimgray" }}>Project Ending Date</p>
-                <p className="m-0 pt-1">{data?.end_date}</p>
+                <p className="m-0 pt-1 text-dark">{data?.end_date}</p>
               </div>
             </ListGroup.Item>
             <ListGroup.Item>
             <div>
                 <p className='m-0 p-0 ' style={{ fontSize: "10px", color: "dimgray" }}>Description</p>
-                <ul className="m-0 pt-1">
-                  <li>{data?.point1}</li>
-                  <li>{data?.point2}</li>
-                  <li>{data?.point3}</li>
-                  <li>{data?.point4}</li>
-                  <li>{data?.point5}</li>
+                <ul className="m-0 pt-1 ">
+                  <li className='text-dark'>{data?.point1}</li>
+                  <li className='text-dark'>{data?.point2}</li>
+                  <li className='text-dark'>{data?.point3}</li>
+                  <li className='text-dark'>{data?.point4}</li>
+                  <li className='text-dark'>{data?.point5}</li>
                 </ul>
               </div>
             </ListGroup.Item>

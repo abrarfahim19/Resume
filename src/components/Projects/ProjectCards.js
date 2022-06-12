@@ -13,8 +13,8 @@ function ProjectCards({data}) {
           <img className="member-img" src={data?.img_data[0].img}  />
         {/* </div> */}
         <div className="member-info">
-          <h1 className="name">{data?.name}</h1>
-          <h3 className="position">Leader</h3>
+          <h1 className="name ">{data?.name}</h1>
+          <h3 className="position">My Project</h3>
           <h4 className="about">
             {data?.point1}
           </h4>

@@ -4,7 +4,7 @@ import {useState} from "react";
 const LoadData = () => {
   const [data, setData] = useState([]);
   useEffect(()=>{
-    fetch("https://raw.githubusercontent.com/samsmusa/portfolio/master/public/fakedb.json")
+    fetch("https://raw.githubusercontent.com/abrarfahim19/Resume/main/src/components/props/fakedb.json")
     .then(res=>res.json())
     .then(res=>setData(res))
   },[])
